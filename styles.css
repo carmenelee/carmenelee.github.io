@@ -37,6 +37,11 @@ p {
     gap: 8px;
 }
 
+.images {
+    margin-left: auto;
+    margin-rightL auto;
+}
+
 .gallery img {
     width: 150px;
     margin-bottom: -5%;
