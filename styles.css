@@ -19,18 +19,21 @@ html, body {
 
 h1 {
     color: #BF5000;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     font-family:'Courier New', Courier, monospace;
 }
 
 p {
     font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 .gallery {
     width: 100vw;
     display: grid;
+    margin-right: auto;
+    margin-left: auto;
     grid-template-columns: repeat(auto-fit,150px);
     gap: 8px;
 }
