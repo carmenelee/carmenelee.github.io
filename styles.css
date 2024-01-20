@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 0;
+    background-color: #FFF2D9;
+}
+
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+.hero-vid img{
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+h1 {
+    color: #BF5000;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.gallery {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,150px);
+    gap: 8px;
+}
+
+.gallery img {
+    width: 150px;
+    margin-bottom: -5%;
+    margin-top: 16px;
+}
